@@ -335,5 +335,77 @@ input[type=email] {
 
 }
 
+footer{
+    background-color: #050d11;
+}
+
+.footer-container{
+    width: 100%;
+    
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    
+}
+
+.social-icon a{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:0.4s ease-in-out;
+}
+
+.social-icon a i{
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+}
+
+.social-icon a:hover{
+ background-color: #17ad49;
+ transition: 0.4s ease;
+}
+
+.footer-na{
+    margin: 20px 0;
+}
+
+.footer-na ul{
+    display:flex;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.footer-na ul a{
+    color: aliceblue;
+    margin: 20px;
+    transition:0.4s ease-in-out; 
+}
+
+.footer-na ul a:hover{
+    background-color: #17ad49;
+    transition: 0.4s ease;
+}  
+
+.footerbottom{
+    text-align: center;
+    padding-top: 10px;
+    background-color: black;
+}
+
+.footerbottom p{
+    color: white;
+    font-family: sans-serif;
+}
+
+    
+
 
     
