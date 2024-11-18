@@ -21,18 +21,18 @@
     text-align: center;
     line-height: 70px;
     background: #063146;
-    user-select: none;
+    user-select: none; /*prevents users from selecting text within an element*/
 }
 
 .sidebar ul a{
-    display: block;
+    display: block; /*change the default behavior of an element from inline to block-level*/
     height: 100%;
     width: 100%;
     line-height: 65px;
     color: aliceblue;
     font-size:15px;
-    padding-left: 20px;
-    box-sizing: border-box;
+    padding-left: 20px; /* its generate space around and element content inside a define border */
+    box-sizing: border-box; /*enables you to define how you want the height and width of an element to be calculated.*/
     border-top: 1px solid rgba(255, 255, 255, .1);
     border-bottom: 1px soild black;
     transition: 0.4s ease;
@@ -70,7 +70,7 @@ label #btn{
 }
 
 label #cancel{
-    z-index: 1111;
+    z-index: 1111;/* it controls the order of overlapping of html element i.e an element with a higher z-index value will be place on top of an element with a lower z-index */
     left: -295px;
     top: 40px;
     font-size: 20px;
@@ -107,11 +107,11 @@ body{
 }
 
 nav {
-    background-color: transparent !important;
+    background-color: transparent;
     padding: 20px;
-    padding-inline: 50px;
+    padding-inline: 50px; /*used to generate space around an element's content, inside of any defined borders.*/
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /*aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).*/
     align-items: center;
     }
   
