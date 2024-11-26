@@ -113,7 +113,7 @@ nav {
     display: flex;
     justify-content: space-between; /*aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).*/
     align-items: center;
-    }
+}
   
   .logo {
     flex: 0 0 auto;
