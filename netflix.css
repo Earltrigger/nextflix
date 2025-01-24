@@ -20,7 +20,7 @@
     color: white;
     text-align: center;
     line-height: 70px;
-    background: #063146;
+    background: #063146fd;
     user-select: none; /*prevents users from selecting text within an element*/
 }
 
@@ -37,7 +37,7 @@
     border-bottom: 1px soild black;
     transition: 0.4s ease;
 }
-
+<a>
 ul li:hover a{
     padding-left: 50px;
     transition: 0.4s ease;
